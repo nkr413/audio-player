@@ -13,7 +13,6 @@ document.getElementById("song-name").innerHTML = soundBase[int];
 	soundBase.forEach((item) => {
 		let div = document.createElement('div');
 		div.innerHTML = item;
-		// div.setAttribute("id", "song-select-btn");
 		document.querySelector('.songs-block').append(div);
 	});
 })();
